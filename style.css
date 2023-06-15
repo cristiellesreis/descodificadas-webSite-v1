@@ -1,0 +1,605 @@
+html, body {
+    max-height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: #000000;
+    margin: 0;
+}
+
+/*estilização do cabeçalho*/
+
+.navegacao{
+    font-family: "mohave";
+    font-size:24px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5px;
+    position: fixed;
+    width: 80%;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+.home-logo{
+    width: 15%;
+    padding-top: 10px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.opcoes-menu{
+    text-align: center;
+    display: inline;
+    padding-top: 50px;
+    position: fixed;
+    margin-left: 60%;
+}
+
+.opcoes-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.opcoes-menu a:hover{
+    color:#AD7702;
+}
+
+.capa-cabeçalho{
+    background-position: center;
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.titulo-capa{
+    font-family: 'mohave';
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 300px;
+    word-wrap: break-word;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.titulo-capa h1{
+    margin: 0px;
+    max-width: 550px;
+    font-size: 80px;
+    width: 707px;
+}
+
+/*estilização index - início*/
+
+.nossa-historia .container{
+    max-width: 1520px;
+    height: 985px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.nossa-historia .titulo {
+    color: #AD7702;
+    font-family: "mohave";
+    font-size: 50px;
+    padding-top: 100px;
+    margin-left: 284px;
+    text-transform: uppercase;
+}
+
+.nossa-historia .texto {
+    max-width: 562px;
+    font-family: "mohave";
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-left: 284px;
+}
+
+.nossa-historia .imagem-cozinheiro{
+    margin-left: 30%;
+    width: 744px;
+    height: 1047px;
+}
+
+.nossa-historia button {
+    border-radius: 5px;
+    border-color: #AD7702;
+    background-color: rgb(0, 0, 0);
+    width: 378px;
+    height: 60px;
+    font-family: "mohave";
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 350px; 
+    text-transform: uppercase;
+}
+
+/*estilização da pag lado b.burguer - nossa história*/
+
+.nossa-historia-completa .container{
+    max-width: 1520px;
+    height: 1130px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.nossa-historia-completa .titulo {
+    color: #AD7702;
+    font-family: "mohave";
+    font-size: 50px;
+    padding-top: 100px;
+    margin-left: 352px;
+}
+
+.nossa-historia-completa .texto {
+    max-width: 1208px;
+    font-family: "mohave";
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-left: 352px;
+    text-align: justify;
+}
+
+.video{
+    margin-left: 360px;
+    margin-bottom: 60px;
+}
+
+
+/*estilização index - serviços*/
+
+.fundo-pincelado{
+    padding-top: 80px;
+    max-width: 1920px;
+}
+
+.imagem-pincelada {
+    position: absolute;
+    max-width: 1920px;
+}
+
+.servico-menu{
+    float: center;
+    position: relative;
+    display: flex;
+    margin-left: 479px;
+    margin-top: 10%;
+    width: 971px;
+    height: 206px;
+    text-transform: uppercase;
+}
+
+.box{
+    text-align: center;
+    display:flexbox;    
+    font-family: "mohave";
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #ffffff;
+    width: 250px;
+    height:200px;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+/*estilização index - cardapio*/
+
+.hamburguer-centralizado{
+    margin-left: 614px;
+    margin-top: 200px;
+}
+
+.container-menu{
+    background-color: #ffffff;
+    max-width: 1920px;
+    height: 1200px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.titulo-menu{
+    font-family: "mohave";
+    font-size: 80px;
+    color: #AD7702;
+    font-weight: bold;
+    margin-left: 855px;
+    padding-top: 30px;
+}
+
+.cardapio{
+    font-family: "mohave";
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    display:inline-flex;
+    margin-left: 664px;
+    cursor: pointer;
+}
+
+.cardapio :hover{
+    color: #AD7702;
+}
+
+h5{
+    margin-left: 40px;
+}
+
+.container-cardapio{
+    display: flex;
+    justify-content:center;
+}
+
+.imagem-itens{
+    display: flex;
+}
+
+.itens-menu-hamburgueres{
+    font-family: "mohave";
+    display:grid;
+    max-width: 841px;
+    height:835px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.nome-item{
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 30px;
+}
+
+.pontilhado-item{
+    color: gray;
+    font-size: 30px;
+}
+
+.preco{
+    color: #AD7702;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.descricao-item{
+    color: gray;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.oculta{
+    display: none;
+}
+
+/*estilização index - contato*/
+
+.contato{
+    width:1920px;
+}
+
+.container-frase-imagem{
+    display: flex;
+}
+
+.frase-ladob{
+    font-family: "mohave";
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-right: 300px;
+    padding-left: 150px;
+    padding-top: 150px;
+    text-transform: uppercase;
+}
+
+.container-endereço-mapa{
+    display: flex;
+    justify-content: right;
+}
+
+.mapa{
+    display:flex;
+}
+
+.endereco{
+    font-family: "mohave";
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+/*estilização index - grid de fotos*/
+
+.painel-fotos{
+    height: 1196px;
+}
+
+.pincelado-fundo{
+    display: block;
+    position: absolute;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns:repeat(3, 275px);
+	grid-auto-rows: 240px;
+    margin-top: 290px;
+    margin-left: 180px;
+    position: absolute;
+    z-index: 200;
+}
+
+.grid-area-1 .item-1 {
+    grid-area: 3 / 3/ span 1/ span 1;
+    background-image: url(img/gride6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-area-1 .item-2 {
+    grid-area: 1 / 2 / span 1/ span 2;    
+    background-image: url(img/gride3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-area-1 .item-3 {
+    grid-area: 2 / 2 / span 2 / span 1;    
+    background-image: url(img/grid1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-area-1 .item-4 {
+    grid-area: 1 / 1 / span 2 / span 1;    
+    background-image: url(img/gride4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-area-1 .item-5 {
+    grid-area: 2 / 3 / span 1/span 1;
+    background-image: url(img/gride2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-area-1 .item-6 {
+    grid-area: 3 / 1 / span 1 / span 1;
+    background-image: url(img/gride5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item {
+	margin: 10px;
+}
+
+.metade-1{
+    display: flex;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 270px;
+}
+
+.metade-2{
+    display: flex;
+    position: absolute;
+    margin-left: 951px;
+    margin-top: 270px;
+}
+
+.texto-grid{
+    font-family: "mohave";
+    font-size: 90px;
+    text-transform: uppercase;
+    z-index: 200;
+    color: #AD7702;
+    display: flex;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1200px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.texto-grid-arroba{
+    font-family: "mohave";
+    font-size: 50px;
+    text-transform: uppercase;
+    z-index: 200;
+    color: #000000;
+    display: flex;
+    position: absolute;
+    margin-top: 753px;
+    margin-left: 1200px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.texto-grid-hashtag{
+    font-family: "mohave";
+    font-size: 30px;
+    text-transform: uppercase;
+    z-index: 200;
+    color: #000000;
+    display: flex;
+    position: absolute;
+    margin-top: 858px;
+    margin-left: 1200px;
+    font-weight: bold;
+    width: 500px;
+}
+
+/*estilização da pag reservas - formulario*/
+
+.formulario h1{
+    font-family: "mohave";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.container-dados{
+    height: 1027px;
+}
+
+.itens-dados{
+    display: grid;
+    margin-left: 564px;
+    margin-top: 50px;
+}
+.formulario input{
+    width: 781px;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 30px;
+    outline: none;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: "mohave";
+    color: gray;
+}
+
+.formulario textarea{
+    line-height: 20px;
+    padding-left: 10px;
+    height: 235px;
+    resize: none;
+    width: 780px;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "mohave";
+    color: gray;
+}
+
+.itens-dados ::placeholder{
+    color: #AD7702;
+    font-family: "mohave";
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+input[type=submit]{
+    background-color: #AD7702;
+    width: 796px;
+    font-family: "mohave";
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*estilização do footer*/
+
+.rodape{
+    width: 1920px;
+    height: 600px;
+    background-color: #2D2C2C;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotipo-rodape{
+    padding-bottom: 30px;
+    padding-top: 100px;
+    display: grid;
+    width: 131px;
+    height: 114px;
+    justify-self: center;
+    margin-left: 170px;
+}
+
+.menu-rodape{
+    justify-self: center;
+}
+
+.opcoes-menu-rodape{
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.opcoes-menu-rodape a{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+    padding-right: 20px;
+    font-family: "mohave";
+    font-size:24px;
+    display:inline;
+    justify-content:center;
+}
+
+.opcoes-menu-rodape :hover{
+    color: #AD7702;
+}
+
+.redes-sociais{
+    font-family: "mohave";
+    font-size: 24px;
+}
+
+.redes-sociais p{
+    color: #ffffff;
+    font-family: "mohave";
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.redes-sociais a{
+    padding: 2%;
+    position: relative;
+}
+
+.icones{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.nome-desenvolvedora{
+    color: #ffffff;
+    font-family: "mohave";
+    font-size: 24px;
+    display: inline;
+    height: 100px;
+    position: relative;
+    justify-self: center;
+    margin-top: 30px;
+}

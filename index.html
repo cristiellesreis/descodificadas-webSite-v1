@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mohave&display=swap" rel="stylesheet">
+        <title>Lado b.burguer</title>
+    </head>
+    
+    <body>
+        <header>
+            <nave>
+                <div class="navegacao">
+                    <div class="home-logo">
+                        <a href="index.html">
+                            <img src="img/logotipo.png" alt="logotipo lado b.burguer">
+                        </a>                
+                    </div>
+                    <div class="opcoes-menu">
+                        <a href="index.html">inicial</a> 
+                        <a href="historia.html">lado b.burguer</a>
+                        <a href="#servico">serviços</a>
+                        <a href="#contatos">contato</a>
+                        <a href="reservas.html">reservas</a>
+                    </div>
+                </div>
+            </nave>   
+            <div class="capa-cabeçalho">
+                <img src="img/capadosite.png" alt="hamburguer e bata frita">
+                <div class="titulo-capa">
+                    <h1>Lado B. Burguer</h1>
+                    <h3>hamburgueria</h3>
+                </div>
+            </div>
+        </header> 
+
+        <section class="nossa-historia">
+            <div class="titulo"><h1>Nossa história</h1></div>
+            <div class="container">
+                <div class="texto"><p>Bem-vindo AO LADO B.BURGER! Nossa hamburgueria é um lugar onde os sabores se encontram para criar uma experiência única e satisfatória para os amantes de hambúrgueres.Aqui, buscamos oferecer aos nossos clientes uma refeição saborosa e memorável, repleta de ingredientes frescos e de alta qualidade.<br>Desde o momento em que você entra em nossa hamburgueria, é envolvido por uma atmosfera acolhedora e um aroma irresistível de hambúrgueres grelhados na chapa. Nossa equipe simpática e atenciosa está pronta para recebê-lo e garantir que sua visita seja excepcional. <br>Nossos hambúrgueres são feitos com carne selecionada, moída diariamente para garantir a suculência e o sabor autêntico. Combinamos técnicas tradicionais com um toque de criatividade para criar opções de hambúrgueres que agradam a todos os paladares.</p></div>
+                <div><img src="img/cozinheiro.png" alt="homem fazendo hamburgueres" class="imagem-cozinheiro"></div>
+            </div>
+            <a href="historia.html">
+                <button type="button">saiba mais</button>
+            </a>
+        </section>
+
+        <section>
+            <div id="servico">
+                <div class="fundo-pincelado"><img src="img/background-serviços.png" alt="fundo pincelado" class="imagem-pincelada">
+                    <div class="servico-menu">
+                        <div class="box">pedidos<img src="img/pedidos.png" alt="icone de um celular"></div>
+                        <div class="box">delivery<img src="img/delivery.png" alt="icone de uma moto"></div>
+                        <div class="box">eventos<img src="img/eventos.png" alt="icone de um garçon"></div>
+                        <div class="box">reservas<img src="img/reservas.png" alt="icone de um calendario"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img src="img/hamburguer1.png" alt="imagem de um hamburguer centralizado" class="hamburguer-centralizado">
+            <div class="container-menu">
+                <div class="titulo-menu">menu</div>
+                <div class="cardapio">
+                    <h5 onclick="exibirHamburgueres()" >hamburgueres</h5>
+                    <h5 onclick="exibirAcompanhamentos()">acompanhamentos</h5>
+                    <h5 onclick="exibirBebidas()">bebidas</h5>
+                </div>
+                <div class="container-cardapio" id="hambuergueres">
+                    <img src="img/hamburguer menu.png"class="imagem-itens">
+                    <div class="itens-menu-hamburgueres">
+                        <div><span class="nome-item">Cheeseburger</span><span class="pontilhado-item">......................................................................</span><span class="preco">r$25,00</span><br><span class="descricao-item">Hambúrguer de carne bovina, queijo cheddar derretido, alface, tomate, cebola e molho especial. Servido com batatas fritas.</span></div>
+                        <div><span class="nome-item">Bacon Burger</span><span class="pontilhado-item">......................................................................</span><span class="preco">r$28,00</span><br><span class="descricao-item">Hambúrguer de carne bovina, bacon crocante, queijo, alface, tomate e maionese defumada. Servido com batatas fritas.</span></div>
+                        <div><span class="nome-item">BBQ Burger</span><span class="pontilhado-item">.........................................................................</span><span class="preco">r$30,00</span><br><span class="descricao-item">Hambúrguer de carne bovina, queijo cheddar derretido, alface, tomate, cebola e molho especial. Servido com batatas fritas.</span></div>
+                        <div><span class="nome-item">Veggie Burger</span><span class="pontilhado-item">.....................................................................</span><span class="preco">r$20,00</span><br><span class="descricao-item">Hambúrguer vegetariano à base de leguminosas, acompanhado de queijo, alface, tomate e maionese vegana. Servido com batatas fritas.</span></div>
+                        <div><span class="nome-item">Portobello Burger</span><span class="pontilhado-item">..............................................................</span><span class="preco">r$28,00</span><br><span class="descricao-item">Cogumelo Portobello grelhado, queijo de cabra, rúcula e molho de balsâmico reduzido. Servido com batatas fritas.</span></div>
+                    </div>
+                </div>
+                <div id="acompanhamentos" class="oculta container-cardapio">
+                    <img src="img/batatas menu.png"class="imagem-itens">
+                    <div class="itens-menu-hamburgueres">
+                        <div><span class="nome-item">Batatas Fritas</span><span class="pontilhado-item">......................................................................</span><span class="preco">r$20,00</span><br><span class="descricao-item">batata asterix crocante e sequinha.</span></div>
+                        <div><span class="nome-item">Onion Rings</span><span class="pontilhado-item">.........................................................................</span><span class="preco">r$28,00</span><br><span class="descricao-item">cebola empanada crocante e sequinha.</span></div>
+                        <div><span class="nome-item">Batatas Rústica</span><span class="pontilhado-item">...............................................................................</span><span class="preco">r$22,00</span><br><span class="descricao-item">batata asterix com casca e ervas, macia por dentro e crocante por fora.</span></div>
+                        <div><span class="nome-item">Salada Verde</span><span class="pontilhado-item">.......................................................................</span><span class="preco">r$18,00</span><br><span class="descricao-item">Mix de folhas frescas (alface, rúcula, agrião), Tomate-cereja, Pepino fatiado, Cebola roxa em fatias finas, Croutons crocantes e Molho de Salada (vinagrete, mostarda e mel, ou outro de sua preferência)</span></div>
+                    </div>
+                </div>
+                <div id="bebidas" class="oculta container-cardapio">
+                    <img src="img/bebidas menu.png"class="imagem-itens">
+                    <div class="itens-menu-hamburgueres">
+                        <div><span class="nome-item">Refrigerantes</span><span class="pontilhado-item">......................................................................</span><span class="preco">r$8,00</span></div>
+                        <div><span class="nome-item">Sucos Naturais</span><span class="pontilhado-item">....................................................................</span><span class="preco">r$10,00</span><br><span class="descricao-item">Laranja, Limão, Abacaxi, Morango, Maçã, Melancia, Manga, Uva, Acerola, Kiwi.</span></div>
+                        <div><span class="nome-item">Cervejas Artesanais</span><span class="pontilhado-item">...........................................................................</span><span class="preco">r$12,00</span><br><span class="descricao-item">Dogfish Head Brewery, Sierra Nevada Brewing Co., Stone Brewing, Founders Brewing Co., Lagunitas Brewing Company.</span></div>
+                        <div><span class="nome-item">Milkshakes</span><span class="pontilhado-item">..........................................................................</span><span class="preco">r$12,00</span><br><span class="descricao-item">baunilha, chocolate, morango</span></div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        
+        <section class="contato">
+            <div id="contatos">
+                <div class="container-frase-imagem">
+                    <div class="frase-ladob">o melhor burguer está aqui deste lado!!!</div>
+                    <img src="img/hamburguer2.png" alt="hamburguer no prato" class="imagem-hamburguer-prato">
+                </div>
+                <div class="container-endereço-mapa">
+                    <div class="endereco">onde estamos?<br>Rua Fictícia, 123<br>Bairro Imaginário<br>São Paulo/SP<br>CEP: 01234-567<br>ladob.burguer@uol.com<br>(xx) xxxxx-xxxx</div>
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4462.862222410046!2d-46.65757030321043!3d-23.5351053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce581563f28d1d%3A0x7e06835eb6dd93f!2sAysha%20Hamburgueria!5e1!3m2!1spt-BR!2sbr!4v1686600759935!5m2!1spt-BR!2sbr" width="1026" height="595" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="painel-fotos">
+            <div class="grid grid-area-1">
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+                <div class="item item-4"></div>
+                <div class="item item-5"></div>
+                <div class="item item-6"></div>
+            </div>    
+            <div>
+                <div>
+                    <img src="img/background-grid.png" alt="fundo pincelado" class="pincelado-fundo">
+                    <img src="img/metadehambuerguer1.png" alt="metade de um hamburguer" class="metade-1">
+                    <img src="img/metadehamburguer2.png" alt="metade de um hamburguer" class="metade-2">
+                </div>
+            </div>
+            <div class="texto-grid">compartilhe com a gente!!!</div>
+            <div class="texto-grid-arroba">@ladob.burguer</div>
+            <div class="texto-grid-hashtag">use a #vemproladob e marque a gente nas suas redes!</div>
+        </section>
+
+        <footer>
+            <div class="rodape">
+                <a href="index.html">
+                    <img src="img/logotipo.png" alt="logotipo lado b burguer" class="logotipo-rodape">
+                </a>
+                <div class="redes-sociais">
+                    <p>Siga-nos nas redes sociais:</p>
+                    <div class="icones">
+                        <a href="https://www.instagram.com/">
+                            <img src="img/instagram.png" width="69" height="69" alt="ícone do instagram">
+                        </a>
+                        <a href="https://www.whatsapp.com/?lang=pt_br">
+                            <img src="img/whatsapp.png" width="69" height="69" alt="ícone do whatsapp">
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <img src="img/facebook.png" width="69" height="69" alt="ícone do facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="nome-desenvolvedora">
+                    Desenvolvido por Cristielle Reis. Descodificadas 2023.
+                </div>
+            </div>
+        </footer>
+        <script src="arquivo.js"></script>
+    </body>
+</html>
