@@ -1,2 +1,2 @@
-# site-ladobburguer
-Trilha 1 descodificadas: entrega do site
+# Projeto Meu primeiro Site
+Trilha 1 descodificadas: site para uma hamburgueria
